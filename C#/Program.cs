@@ -1,31 +1,33 @@
-﻿// Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа.
+﻿// Напишите программу, которая выводит случайное число из отрезка [10, 99] 
+// и показывает наибольшую цифру числа.
 // Например:
 // 78 -> 8
 // 12-> 2
 // 85 -> 8
 
 
-// int number = new Random().Next(10,100);
-// Console.WriteLine(number);
-// if (number/10 > number%10)
-// {
-//     Console.WriteLine(number/10);
-// }
-// else
-// {
-//     Console.WriteLine(number%10);
-// }
+int number = new Random().Next(10,100);
+Console.WriteLine(number);
+if (number/10 > number%10)
+{
+    Console.WriteLine(number/10);
+}
+else
+{
+    Console.WriteLine(number%10);
+}
 
  
-// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+// Задача 10: Напишите программу, которая принимает на вход трёхзначное число
+// и на выходе показывает вторую цифру этого числа.
 // 456 -> 5
 // 782 -> 8 
 // 918 -> 1
 
 // int number = new Random().Next(100,1000);
 // Console.WriteLine(number);
-// // Console.Write(number/100);
-// // Console.Write(number%10);
+// Console.Write(number/100);
+// Console.Write(number%10);
 // // 2 вариант решения: 
 // int num1 = number/100;
 // int num2 = number%10;
@@ -39,21 +41,21 @@
 // 34, 5 -> не кратно, остаток 4 
 // 16, 4 -> кратно
 
-double a = new Random().Next(1, 10);
-double b = new Random().Next(1, 3);
-double ost = (a % b);
+// double a = new Random().Next(1, 10);
+// double b = new Random().Next(1, 3);
+// double ost = (a % b);
 
-Console.WriteLine(a);
-Console.WriteLine(b);
+// Console.WriteLine(a);
+// Console.WriteLine(b);
 
-if(ost == 0)
-{
-    Console.WriteLine("Кратно");
-}
-else
-{
-    Console.WriteLine("Не кратно, остаток = " + ost);
-}
+// if(ost == 0)
+// {
+//     Console.WriteLine("Кратно");
+// }
+// else
+// {
+//     Console.WriteLine("Не кратно, остаток = " + ost);
+// }
 
 // Задача 14. Напишите программу, которая принимает на вход число и проверяет, 
 // кратно ли оно одновременно 7 и 23.
