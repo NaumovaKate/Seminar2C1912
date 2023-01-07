@@ -8,10 +8,10 @@
 // 12821 -> да
 
 // 23432 -> да
-
+// Решение 1
 // Console.WriteLine("Введите 5-ти значное число: ");
 // int i = new Random().Next(10000, 100000);
-// int num = Convert.ToInt32(Console.ReadLine());
+// String num = (Console.ReadLine());
 // if ((num[0]==num[4]) && (num[1]==num[3]))
 // {
 //     Console.WriteLine($"Число является палиндромом");
@@ -20,6 +20,28 @@
 //      {
 //          Console.WriteLine($"Число не является палиндромом");
 //      }
+
+// Решение 2
+
+// Console.Clear();
+// Console.WriteLine("Введите 5-ти значное число: ");
+// int i =Convert.ToInt32(Console.ReadLine());
+// int A = i / 10000;
+// int B = i / 1000 % 10;
+// int C = i / 10 % 10;
+// int D = i % 10;
+// Console.WriteLine(A);
+// Console.WriteLine(B);
+// Console.WriteLine(C);
+// Console.WriteLine(D);
+
+// if(( A ==  D) && ( B ==  C)){
+//     Console.WriteLine($"Число является палиндромом");
+// }
+// else {
+// Console.WriteLine($"Число не палиндром");
+// }
+
 
 
 // Задача 21
@@ -58,14 +80,11 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.Clear();
-int N = new Random().Next(1,100);
-Console.WriteLine(N);
+// Console.Clear();
+// int N = new Random().Next(1,100);
+// Console.WriteLine(N);
+// for(int i = 1; i <= N; i++)
+// {
+//     Console.Write($"Таблица{i*i*i} ");
+// }
 
-// Console.Write("Введите число N: ");
-// int N = int.Parse(Console.ReadLine());
-
-for(int i = 1; i <= N; i++)
-{
-    Console.Write($"Таблица{i*i*i} ");
-}
