@@ -6,16 +6,16 @@
 // 85 -> 8
 
 
-int number = new Random().Next(10,100);
-Console.WriteLine(number);
-if (number/10 > number%10)
-{
-    Console.WriteLine(number/10);
-}
-else
-{
-    Console.WriteLine(number%10);
-}
+// int number = new Random().Next(10,100);
+// Console.WriteLine(number);
+// if (number/10 > number%10)
+// {
+//     Console.WriteLine(number/10);
+// }
+// else
+// {
+//     Console.WriteLine(number%10);
+// }
 
  
 // Задача 10: Напишите программу, которая принимает на вход трёхзначное число

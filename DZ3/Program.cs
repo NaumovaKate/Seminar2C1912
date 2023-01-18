@@ -42,7 +42,24 @@
 // Console.WriteLine($"Число не палиндром");
 // }
 
+//Решение 3
+// Console.Write("Для проверки палиндрома, введите любое число или слово");
+// string num = Console.ReadLine();
+// int numTxt = num.Length;
 
+// for (int i = 1; i < numTxt; i++)
+// {
+// if (num[i - 1] != num[numTxt - (i)])
+// {
+// Console.WriteLine("не палиндром!");
+// break;
+// }
+// if (i == numTxt-1)
+// {
+// Console.WriteLine("палиндром!");
+// break;
+// }
+// }
 
 // Задача 21
 
@@ -79,7 +96,7 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
-
+// Решение 1
 // Console.Clear();
 // int N = new Random().Next(1,100);
 // Console.WriteLine(N);
@@ -88,3 +105,15 @@
 //     Console.Write($"Таблица{i*i*i} ");
 // }
 
+// решение 2
+
+// Console.WriteLine("Введите число N: ");
+// int N = new Random().Next(1,100);
+// int i = 1;
+// while (i <= N)
+// {
+//  Console.Write($"{i*i*i} \t "); // t в выводе дает разделение на столбики
+// if (i%5 == 0) Console.WriteLine(); // if (i%5 == 0) - отсекает по количеству чисел
+
+// i++;
+// }

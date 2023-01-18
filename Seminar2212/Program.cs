@@ -82,37 +82,37 @@
 // Напишите программу, которая по заданному номеру четверти, показывает диапазон
 // возможных координат точек в этой четверти (x и y).
 
-int quarter = int.Parse(Console.ReadLine());
+// int quarter = int.Parse(Console.ReadLine());
 
-switch (quarter)
-{
-    case 1:
-    {
-        Console.WriteLine("x>0 y>0");
-        break;
-    }
-    case 2:
-    {
-        Console.WriteLine("x<0 y>0");
-        break;
-    }
-    case 3:
-    {
-        Console.WriteLine("x<0 y<0");
-        break;
-    }
-    case 4:
-    {
-        Console.WriteLine("x>0 y<0");
-        break;
-    }
+// switch (quarter)
+// {
+//     case 1:
+//     {
+//         Console.WriteLine("x>0 y>0");
+//         break;
+//     }
+//     case 2:
+//     {
+//         Console.WriteLine("x<0 y>0");
+//         break;
+//     }
+//     case 3:
+//     {
+//         Console.WriteLine("x<0 y<0");
+//         break;
+//     }
+//     case 4:
+//     {
+//         Console.WriteLine("x>0 y<0");
+//         break;
+//     }
 
-    default:
-    {
-        Console.WriteLine("Введена неправильная четверть");
-        break;
-    }
-}
+//     default:
+//     {
+//         Console.WriteLine("Введена неправильная четверть");
+//         break;
+//     }
+// }
 
 
 
@@ -135,7 +135,7 @@ switch (quarter)
 
 // double d = Math.Sqrt(Math.Pow(x1-x2, 2) + Math.Pow(y1-y2, 2));
 
-// Console.WriteLine($"d={d:f3}");
+// Console.WriteLine($"d={d:f6}");
 
 
 
@@ -155,3 +155,29 @@ switch (quarter)
 // {
 //     Console.Write($"{i*i} ");
 // }
+
+// int j = 2;
+// for (int i = 1; i < 100; i = i + 2)
+// {
+//     j = j - 1;
+//     Console.WriteLine(j);
+
+//     while(j < 15)
+//     {
+//         j = j + 5;
+//     }
+// }
+
+int a = 10;
+a += 10;        // 20
+Console.WriteLine(a);
+a -= 4;         // 16
+Console.WriteLine(a);
+a *= 2;         // 32
+Console.WriteLine(a);
+a /= 8;         // 4
+Console.WriteLine(a);
+a <<= 4;      // 64
+Console.WriteLine(a);
+a >>= 2;      // 16
+Console.WriteLine(a);

@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\bin\Debug\net6.0\Seminar120123.exe
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\bin\Debug\net6.0\Seminar120123.deps.json
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\bin\Debug\net6.0\Seminar120123.runtimeconfig.json
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\bin\Debug\net6.0\Seminar120123.dll
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\bin\Debug\net6.0\Seminar120123.pdb
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.AssemblyInfo.cs
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.dll
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\refint\Seminar120123.dll
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.pdb
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\Seminar120123.genruntimeconfig.cache
+C:\Users\User\Desktop\Seminar2C1912\Seminar120123\obj\Debug\net6.0\ref\Seminar120123.dll
