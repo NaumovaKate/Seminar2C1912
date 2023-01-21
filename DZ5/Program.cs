@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-// Console.WriteLine("Hello, World!");
-
-// Урок 5. Функции и одномерные массивы
+﻿// Урок 5. Функции и одномерные массивы
 
 // Задача 34: Задайте массив заполненный случайными 
 // положительными трёхзначными числами. 
@@ -11,36 +8,36 @@
 
 // решение задачи 34:
 
-// int[] CreateRandomArray(int N, int start, int end)
-// {
-// int[] RandomArray = new int[N];
-// for (int i = 0; i < N; i++)
-// {
-// RandomArray[i] = new Random().Next(start, end + 1);
-// }
-// return RandomArray;
-// }
+int[] CreateRandomArray(int N, int start, int end)
+{
+    int[] RandomArray = new int[N];
+    for (int i = 0; i < N; i++)
+    {
+        RandomArray[i] = new Random().Next(start, end + 1);
+    }
+    return RandomArray;
+}
 
-// void ShowArray(int[] array)
-// {
-// for (int i = 0; i < array.Length; i++)
-// {
-// Console.Write(array[i] + " ");
-// }
-// Console.WriteLine();
-// }
+void ShowArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
 
-// int[] Array1 = CreateRandomArray(8, 100, 500);
-// ShowArray(Array1);
+int[] Array1 = CreateRandomArray(8, 100, 500);
+ShowArray(Array1);
 
-// int evenNumbers = 0;
+int evenNumbers = 0;
 
-// for (int i = 0; i < Array1.Length; i++)
-// {
-// if (Array1[i] % 2 == 0)
-// evenNumbers++;
-// }
-// Console.WriteLine($"Количество четных чисел в массиве = {evenNumbers}");
+for (int i = 0; i < Array1.Length; i++)
+{
+    if (Array1[i] % 2 == 0)
+        evenNumbers++;
+}
+Console.WriteLine($"Количество четных чисел в массиве = {evenNumbers}");
 
 
 
@@ -53,33 +50,33 @@
 
 // решение задачи 36:
 
-// int[] CreateRandomArray(int N, int start, int end)
-// {
-// int[] RandomArray = new int[N];
-// for (int i = 0; i < N; i++)
-// {
-// RandomArray[i] = new Random().Next(start, end + 1);
-// }
-// return RandomArray;
-// }
+int[] CreateRandomArray(int N, int start, int end)
+{
+    int[] RandomArray = new int[N];
+    for (int i = 0; i < N; i++)
+    {
+        RandomArray[i] = new Random().Next(start, end + 1);
+    }
+    return RandomArray;
+}
 
-// void ShowArray(int[] array)
-// {
-// for (int i = 0; i < array.Length; i++)
-// {
-// Console.Write(array[i] + " ");
-// }
-// Console.WriteLine(" - это одномерный массив");
-// }
+void ShowArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine(" - это одномерный массив");
+}
 
-// int[] Numbers = CreateRandomArray(5, 5, 30);
-// ShowArray(Numbers);
+int[] Numbers = CreateRandomArray(5, 5, 30);
+ShowArray(Numbers);
 
-// int oddEl = 0;
+int oddEl = 0;
 
-// for (int i = 0; i < Numbers.Length; i+=2)
-// oddEl = oddEl + Numbers[i];
-// Console.WriteLine($"Сумма нечетных элементов в массиве = {oddEl}");
+for (int i = 0; i < Numbers.Length; i += 2)
+    oddEl = oddEl + Numbers[i];
+Console.WriteLine($"Сумма нечетных элементов в массиве = {oddEl}");
 
 
 
@@ -97,15 +94,15 @@ Console.WriteLine($"Разница = {GetDifference(startArray)}");
 
 int[] GetArray(int size, int minValue, int maxValue)
 {
-    int [] res = new int[size];
+    int[] res = new int[size];
     for (int i = 0; i < size; i++)
     {
         res[i] = new Random().Next(minValue, maxValue + 1);
     }
     return res;
 }
- int GetDifference(int[] array)
- {
+int GetDifference(int[] array)
+{
     int min = array[0];
     int max = array[0];
     foreach (var item in array)
@@ -114,7 +111,7 @@ int[] GetArray(int size, int minValue, int maxValue)
         if (max < item) max = item;
     }
     return max - min;
- }
+}
 
 
 
